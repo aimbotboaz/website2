@@ -1,0 +1,161 @@
+
+body{
+  margin: 0;
+  padding: 0;
+  width: 100%;
+
+  font-family: "open Sans";
+  font-size: 18px;
+  background: #1d1d1e;
+}
+::-webkit-scrollbar-track
+{
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+	background-color: #F5F5F5;
+	border-radius: 10px;
+}
+
+::-webkit-scrollbar
+{
+	width: 1vw;
+	background-color: #F5F5F5;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb
+{
+	border-radius: 10px;
+	background-image: -webkit-gradient(linear,
+    left bottom,
+    left top,
+  color-stop(0.44,#4e4e4d),
+  color-stop(0.86, rgb(256,256,256)));
+}
+.absoluteparent{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin: 0 20px 0 20px;
+}
+.textparent{
+  color: white;
+  width:  600px;
+  height: 310px;
+  margin: 30px 0 0 30px;
+  background: orange;
+  overflow-x: hidden;
+  overflow-y: hidden;
+  white-space: pre-line;
+  border-radius: 50px;
+  text-decoration: underline;
+}
+.textchild{
+  margin: 6px;
+}
+.buttontext{
+  color: white;
+}
+.textparent:hover{
+  box-shadow: 12px 12px 2px 1px rgba(0, 0, 0, .2);
+  margin-top: 20px;
+  transition: .5s;
+}
+.textparent:active{
+  transform: rotate(180deg); /*the tables have turned*/
+  transition: 2s;
+}
+.contributors{
+  background: black;
+  color: white;
+  margin-top: 20px
+}
+@media screen and (max-width: 1300px) {
+.absoluteparent{
+  grid-template-columns: 1fr;
+}
+
+}
+.home {
+  width: 100px;
+  height: 75px;
+  margin-right: 10px;
+  background-image: url('untitled.png');
+}
+.aboutus {
+  width: 100px;
+  height: 75px;
+  margin-right: 10px;
+  background-image: url('untitled2.png');
+}
+.navbar{
+  position: fixed;
+  top:0;
+  background: #111f;
+  width: 100%;
+}
+.navbar a {
+  width: 100px;
+  height: 75px;
+  float: left;
+}
+.navbar2{
+  position: absolute;
+  top:0;
+  background: #111f;
+  width: 100%;
+}
+.navbar2 a {
+  width: 100px;
+  height: 75px;
+  float: left;
+}
+.warning{
+  color: red;
+  font-size: 30px;
+  margin: 0 20px 30px 20px;
+}
+.storytime{
+  margin: 0 100px 5px 100px;
+  color: orange;
+  white-space: pre-line;
+
+}
+.space{
+  width: 100%;
+  height: 75px;
+}
+.absoluteparent2{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  margin: 0 20px 0 20px;
+}
+.aboutparent{
+  color: white;
+  width:  300px;
+  height: 500px;
+  margin: 30px 0 0 30px;
+  background: orange;
+  overflow-x: hidden;
+  overflow-y: hidden;
+  white-space: pre-line;
+  border-radius: 50px;
+
+}
+.profilepicture{
+  background-image: url('user.jpg');
+  width: 200px;
+  height: 200px;
+  margin:  0 50px 0 50px;
+}
+.writer{
+  color: black;
+  margin: 5px;
+}
+.aboutparent:hover{
+  box-shadow: 12px 12px 2px 1px rgba(0, 0, 0, .2);
+  margin-top: 20px;
+  transition: .5s;
+}
+.aboutparent:active{
+  transform: rotate(180deg); /*the tables have turned*/
+  transition: 2s;
+}
