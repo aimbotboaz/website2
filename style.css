@@ -3,9 +3,7 @@ body{
   margin: 0;
   padding: 0;
   width: 100%;
-
   font-family: "open Sans";
-  font-size: 18px;
   background: #1d1d1e;
 }
 ::-webkit-scrollbar-track
@@ -115,7 +113,7 @@ body{
   margin: 0 100px 5px 100px;
   color: orange;
   white-space: pre-line;
-
+  font-size: 25px;
 }
 .space{
   width: 100%;
