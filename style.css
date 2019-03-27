@@ -39,7 +39,7 @@ body{
 .textparent{
   color: white;
   width:  800px;
-  height: 310px;
+  height: 450px;
   margin: 30px 0 0 30px;
   background: orange;
   overflow-x: hidden;
@@ -47,7 +47,7 @@ body{
   white-space: pre-line;
   border-radius: 50px;
   text-decoration: underline;
-  font-size: 20px;
+  font-size: 25px;
 }
 .textchild{
   margin: 6px;
@@ -60,16 +60,13 @@ body{
   margin-top: 20px;
   transition: .5s;
 }
-.textparent:active{
-  transform: rotate(180deg); /*the tables have turned*/
-  transition: 2s;
-}
+
 .contributors{
   background: black;
   color: white;
   margin-top: 20px
 }
-@media screen and (max-width: 1600px) {
+@media screen and (max-width: 1900px) {
 .absoluteparent{
   grid-template-columns: 1fr;
 }
